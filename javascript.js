@@ -9,6 +9,7 @@ $(document).ready(function(){
     var toDom = "<div id='" + borough.id + "' class='borough'>" + formattedName + list + "</div>";
     appendAreaA(toDom);
     appendAreaB(formattedName);
+    $('.area-b').css("position", "fixed");
   };
 
   var listen = new Listener();
